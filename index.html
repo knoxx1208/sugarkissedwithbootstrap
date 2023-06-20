@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./asset/sugarkissed-logo1.jpg" alt="logo image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent"
+            aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+                <ul class="nav nav-tabs navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item fs-5">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item fs-5 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="dress.html">Dresses</a></li>
+                            <li><a class="dropdown-item" href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success text-black" type="submit">Check</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-3">
+        <div class="carousel slide " id="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block" src="./asset/bestseller/picture1.jpg" alt="image">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="./asset/bestseller/picture2.jpg" alt="image">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="./asset/bestseller/picture3.jpg" alt="image">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="./asset/bestseller/picture5.jpg" alt="image">
+                </div>
+            </div>
+            <a href="#carousel" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon text-bg-primary"></span>
+            </a>
+            <a href="#carousel" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon text-bg-primary"></span>
+            </a>
+        </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <h3 class="fs-2">About Us</h3>
+            <p>
+                <a href="index.html"><b>SUGAR-KISSED</b></a> is a charming brand that was established on March 13, 2008, by <u>Christianne Marie Bohol</u> and <u>Maria Iris Ivy Bohol</u>. This dynamic duo embarked on a
+                creative venture to bring a touch of sweetness and style to children's fashion. In its early days,
+                Sugarkissed initially focused on crafting exquisite headbands and hair accessories, adding a dash 
+                of whimsy to little ones' hairstyles.
+                <a href="about.html" class="btn btn-primary">View More</a>
+            </p>
+          </div>
+          <div class="feature col">
+            <h3 class="fs-2">Gallery</h3>
+            <p>Welcome to the Sugar-Kissed Gallery, where we take great delight in showcasing the beautiful memories we have created 
+                with our past clients. We invite you to immerse yourself in a visual journey through the moments captured within our 
+                frames. At Sugar-Kissed, we believe that each moment is unique and deserves to be cherished.Come and see some of our clients' photos.
+                <a href="gallery.html" class="btn btn-primary">View More</a>
+            </p>
+          </div>
+          <div class="feature col">
+            <h3 class="fs-2">Dresses</h3>
+            <p>We invite you to browse our delightful page, filled with costumes inspired by your favorite characters. Allow us to
+                transport you to a world of fantasy, where dreams come true and imagination knows no bounds. Embrace your inner hero,
+                princess, or mythical creature, and let our dresses help you create unforgettable memories.Prepare to be whisked away on
+                a magical journey
+                <a href="dress.html" class="btn btn-primary">View More</a>
+            </p>
+          </div>
+        </div><svg class="bi me-2" width="40" height="32"></svg>
+    </div>
+    <div class="footer-container">
+        <div class="footer1">
+            <a href="https://www.facebook.com/christianneiris" target="_blank">
+                <img class="sociallogo" src="./asset/facebooklogo.png" alt="facebooklogo">
+            </a>
+            <a href="https://www.instagram.com/sugarkissedcebu/" target="_blank">
+                <img class="sociallogo" src="./asset/instagramlogo.jpg" alt="instagramlogo">
+            </a>
+        </div>
+        <div class="footer1">
+            <p class="p-3 fs-6">Copyright: &copy; SUGAR-KISSED</p>
+        </div>
+        <div style="width: 250px;">
+            <p class="pcenter">Address:<a href="https://goo.gl/maps/orAbEDj8d555M1ue7" target="_blank">1221 L. Gabuya Street Cogon Pardo , Cebu City, Philippines</a></p>
+            <p class="pcenter">Email Address: 
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+                irisnormman@icloud.com
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
